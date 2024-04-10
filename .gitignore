@@ -1,0 +1,11 @@
+# Ignore the cache (always)
+__pycache__
+
+# Ignore image files
+*.png
+*.tif
+*.jpg
+
+# Ignore large data files
+*.npy
+*.mat

@@ -1,0 +1,90 @@
+
+Summary statistics:
+Name  : ex situ intensity (raw, all pixels)
+Mean  :  817.143
+Std   :  382.874
+Min   :  260.000
+Max   : 13923.000
+Count : 1048576
+Selected quantiles:
+  Quantile :  Value   : Z-score
+  0.550000 :  776.000 :   -0.107
+  0.995000 : 1972.000 :   +3.016
+
+Summary statistics:
+Name  : ex situ intensity (processed, good pixels)
+Mean  : 1135.597
+Std   :  269.109
+Min   :  776.000
+Max   : 1972.000
+Count : 467221
+Selected quantiles:
+  Quantile :  Value   : Z-score
+  0.200000 :  882.000 :   -0.942
+  0.800000 : 1372.000 :   +0.878
+
+Fraction of fibers (TC)  = 0.677347
+Fraction of fibers (MSE) = 0.654050
+Correlation between MSE and TC fiber classifications: 0.921580
+
+Summary statistics:
+Name  : electrochemical image intensity (absolute, good pixels)
+Mean  :  769.230
+Std   :  309.792
+Min   :  250.000
+Max   : 2131.000
+Count : 11691723
+Selected quantiles:
+  Quantile :  Value   : Z-score
+  0.200000 :  509.000 :   -0.840
+  0.800000 : 1009.000 :   +0.774
+
+Summary statistics:
+Name  : electrochemical image intensity (relative, good pixels)
+Mean  :    0.671
+Std   :    0.231
+Min   :    0.129
+Max   :    2.583
+Count : 11691723
+Selected quantiles:
+  Quantile :  Value   : Z-score
+  0.200000 :    0.458 :   -0.923
+  0.800000 :    0.895 :   +0.968
+
+Summary statistics:
+Name  : correlation B vs. I
+Mean  :    0.818
+Std   :    0.158
+Min   :    0.419
+Max   :    0.954
+Count : 28
+********************************************************************************
+Regression: I_bar vs. concentration
+alpha   =     6.238
+beta    =   144.726
+gamma   =   -27.450
+delta   =   282.778
+R2      =  0.962165
+Std Err = 48.910098
+Loading model data in .npy files in directory calcs\model_npy.
+********************************************************************************
+RMS error for recovered image intensity and mean SOC:
+I_abs : 57.479522
+I_rel : 0.099474
+S_bar : 0.000251
+RMS Adjustment in optical factor: 0.015229 abs / 0.015556 rel
+
+Estimated SOC summary:
+Mean              : 0.287660
+Std Err (Absolute): 0.052630
+- Uncertainty in I: 0.042216
+- Uncertainty in F: 0.031428
+Std Err (Relative): 0.182960
+********************************************************************************
+Brightness Coefficients - light production vs. concentration
+alpha   =     4.995
+beta    =   138.405
+gamma   =   -20.821
+delta   =   284.154
+R2      =  0.995196
+Std Err = 57.479521
