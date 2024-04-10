@@ -9,10 +9,18 @@ These are the steps to replicate the calculations on your own computer.
 Install Anaconda if it is not already on your system. 
 See https://conda.io/projects/conda/en/latest/user-guide/install/index.html
 
-Then run these commands in a terminal:
-    cd /your/path/qefsm
-    conda env create -f src/environment.yml
-    conda activate qefsm
+Then run these commands in a terminal if you are on a Windows platform:
+
+    > cd /your/path/qefsm
+    > conda env create -f src/environment_windows.yml
+    > conda activate qefsm
+
+If you are on a Linux platform, run these commands:
+
+    $ cd /your/path/qefsm
+    $ conda env create -f src/environment_linux.yml
+    $ conda activate qefsm
+
 This will create a new conda environment on your system named qefsm that includes all the packages required to run the Python programs.
 This software has been developed and tested on Windows. In principle it should also run on Linux, although this is not tested.
 
